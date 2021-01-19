@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <RelativeLayout
+    tools:context=".olddonor"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_margin="25dp"
+        android:layout_centerInParent="true">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="enter phone number"
+        android:fontFamily="@font/fontt"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/number"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/fontt"
+        android:id="@+id/butt"
+        android:text="Obtain Otp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/fontt"
+        android:text="Please enter the OTP recieved on your phone:"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="*********"
+        android:fontFamily="@font/fontt"
+        android:id="@+id/otp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/fontt"
+        android:id="@+id/proceed"
+        android:text="proceed"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:fontFamily="@font/fontt"
+        android:id="@+id/errorMsg"
+        android:text="invalid otp"
+        android:visibility="invisible"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.cardview.widget.CardView
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_margin="5dp"
+        android:text="name"
+        android:id="@+id/name"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="70dp"
+        android:layout_margin="5dp"
+        android:text="Phone"
+        android:id="@+id/phone"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="20dp"
+        android:layout_margin="5dp"
+        android:text="Bl"
+        android:id="@+id/bg"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="90dp"
+        android:layout_margin="5dp"
+        android:text="City"
+        android:id="@+id/city"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_margin="5dp"
+        android:text="Other Medical Issues"
+        android:id="@+id/mi"/>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
